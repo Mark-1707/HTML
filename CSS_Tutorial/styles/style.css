@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: none;
+    background-image: url('https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg');
+    max-width:;
+    margin: auto;
+}
+
+h1{
+    color: rgb(47, 197, 47);
+}
+
+h1 a {
+    color: rgb(223, 24, 24);
+}
+
+h2 a:hover{
+    color: orange;
+}
+
+.chessboar{
+    border-radius: 30px;
+}
+
+.mate_in_one:hover{
+    border-radius: 10px;
+    box-shadow: 40 40 green;
+}
+
+ul li a{
+    color: pink;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;;
+}
+
+li{
+
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+div{
+    display: block;
+}
+
+ul li:hover{
+    background-color:orange;
+}
+
+.dropbtn {  
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation {
+    position: relative;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.navigation:hover .dropdown-content {
+    display: block;
+  }
+
+  .navigation:hover .dropbtn {
+    background-color: #3e8e41;
+  }
